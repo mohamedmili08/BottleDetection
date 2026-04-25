@@ -1,0 +1,8 @@
+path: ../dataset
+train: train/images
+val: val/images
+
+names:
+  0: OK
+  1: No_Cap
+  2: Damaged
