@@ -12,7 +12,7 @@ while cap.isOpened():
 
     # 2. التنبؤ بالذكاء الاصطناعي
     results = model.predict(frame, conf=0.6)  # لن يظهر أي نتيجة إلا لو كان متأكداً بنسبة 60%
-
+#comment
     # 3. رسم الصناديق والبيانات
     for r in results:
         annotated_frame = r.plot()

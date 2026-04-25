@@ -12,7 +12,7 @@ def train_model():
         batch=16,        # يعتمد على قوة كرت الشاشة عندك
         name='bottle_model'
     )
-
+#cmment 
 if __name__ == '__main__':
     train_model()
 
